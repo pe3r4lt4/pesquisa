@@ -1,0 +1,39 @@
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Formulário Google</title>
+    <link rel="stylesheet" href="pesquisa.css">
+    <script src="java.js"></script>
+</head>
+<body>
+    <div class="header">
+        <print>Efeitos das redes sociais</print>
+    </div>
+
+    <div class="Form">
+        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfzVHOYYNKBOzxvvUhiKABn5KhH4UCITQ6vmGEQovimO9AUaQ/viewform?embedded=true" width="640" height="400" frameborder="0" marginheight="0" marginwidth="0">Carregando…</iframe>
+    </div>
+
+    <div class="aba-planilha">
+        <a href="https://1drv.ms/x/s!Ajx3r5TIEw1woy1jUM2_GlJ1XJ90" id="visualizar-planilha" class="custom-button">Visualizar Planilha</a>
+    </div>
+
+    <div class="texto-superior">
+        <p>Clique aqui para ver também as <br> respostas dadas nas entrevistas</p>
+    </div>
+<div class="imagem">
+    <img src="images.jpeg" alt="">
+</div>
+    <script>
+        document.getElementById('visualizar-planilha').addEventListener('click', function() {
+            var button = this;
+            button.classList.add('red-button');
+            setTimeout(function() {
+                button.classList.remove('red-button');
+            }, 100); // Altere o tempo (em milissegundos) conforme necessário
+        });
+    </script>
+
+</body>
+</html>
